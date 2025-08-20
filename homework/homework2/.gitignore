@@ -1,0 +1,22 @@
+# Secrets & env
+.env
+.env.*
+!*.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+
+# Data (keep folder, ignore files)
+data/*
+!data/.gitkeep
